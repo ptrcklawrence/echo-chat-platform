@@ -25,7 +25,9 @@ function App() {
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
 
-  const socket = useSocket("http://localhost:3001");
+  const SOCKET_URL =
+    import.meta.env.VITE_SOCKET_URL || "https://echo-server-rgfc.onrender.com/";
+  const socket = useSocket(SOCKET_URL); // ← Use the variable
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
