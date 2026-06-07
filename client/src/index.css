@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0f0f23] text-[#e0e0ff];
+    font-family:
+      "Inter",
+      system-ui,
+      -apple-system,
+      sans-serif;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-[#1a1a3e];
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-[#6c63ff] rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-[#5a52e0];
+  }
+}
+
+@layer components {
+  .chat-bubble-user {
+    @apply bg-[#6c63ff] text-white rounded-2xl rounded-tr-sm px-4 py-2 max-w-[70%] break-words;
+  }
+
+  .chat-bubble-stranger {
+    @apply bg-[#2d2d5e] text-[#e0e0ff] rounded-2xl rounded-tl-sm px-4 py-2 max-w-[70%] break-words;
+  }
+}
