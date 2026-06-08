@@ -8,11 +8,9 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400?text=Echo+Chat+Platform" alt="Echo Banner" width="80%">
   
   **Connect with strangers from around the world instantly.**
   
-  [Features](#features) • [Quick Start](#quick-start) • [Tech Stack](#tech-stack) • [Deployment](#deployment) • [License](#license)
 </div>
 
 ---
@@ -41,19 +39,11 @@ Echo is a modern alternative to traditional anonymous chat platforms like Omegle
 | 🎨 **Dark Mode** | Modern, eye-friendly interface |
 | 📱 **Mobile Responsive** | Perfect on any device |
 
-### Fun Easter Eggs 🥚
-- 🔮 **Mystery Mode** - Unlock after 10 skips (bot conversations)
-- 🔊 **Echo Effect** - Screen flashes when both type same word
-- 🔥 **Save Streak** - Track conversation saves
-- 😈 **Hidden Emoji** - Type `:echo:` for surprise
-- 🎉 **Confetti Burst** - Celebration when saving
 
 ### Privacy & Security 🔒
-- ❌ No database - No permanent storage
-- 🍪 No cookies - Zero tracking
-- 📝 No sign-up - Complete anonymity
-- 💨 Ephemeral by default - Chats vanish
-- 🚫 Report system - Quick disconnect
+- ❌ No database
+- 🍪 No cookies
+- 📝 No sign-up
 
 ---
 
